@@ -10,7 +10,7 @@ OFC stands for [OpenFaaS Cloud](https://github.com/openfaas/openfaas-cloud) - th
 
 * Check if your GitHub username is listed [here](https://github.com/tmiklas/ofctest/blob/master/CUSTOMERS) - unless it's in the list, you have no access
 * Get a copy of [faas-cli](https://github.com/openfaas/faas-cli) and download the language templates my instance supports (see below)
-* Create a githib repo for your function code - it can be set to PRIVATE
+* Create a github repo for your function code - it can be set to PRIVATE
 * Add the [Personal OFC Trigger App](https://github.com/apps/personal-ofc-trigger-app) to your account and enable it **ONLY** for the repository that will contain your function code
 * Onece you write your function and `git push` it, the rest will happen automatically - your function will be pulled, built and deployed... nice, isn't it?
 
