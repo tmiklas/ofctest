@@ -11,7 +11,7 @@ OFC stands for [OpenFaaS Cloud](https://github.com/openfaas/openfaas-cloud) - th
 * Check if your GitHub username is listed [here](https://github.com/tmiklas/ofctest/blob/master/CUSTOMERS) - unless it's in the list, you have no access
 * Get a copy of [faas-cli](https://github.com/openfaas/faas-cli) and download the language templates my instance supports (see below)
 * Create a github repo for your function code - it can be set to PRIVATE
-* Add the [Personal OFC Trigger App](https://github.com/apps/personal-ofc-trigger-app) to your account and enable it **ONLY** for the repository that will contain your function code
+* Add the [builder app](https://github.com/apps/hal-builder) to your account and enable it **ONLY** for the repository that will contain your function code
 * Once you write your function and `git push` it, the rest will happen automatically - your function will be pulled, built and deployed... nice, isn't it?
 
 ## Important URLs
@@ -22,11 +22,12 @@ There is personal dashboard and function invocation URL in your own namespace...
 
 ## Supported templates
 
-    - https://github.com/openfaas-incubator/node8-express-template
-    - https://github.com/openfaas-incubator/golang-http-template
-    - https://github.com/openfaas-incubator/node10-express-template
-    - https://github.com/openfaas-incubator/python-flask-template
-    - https://github.com/openfaas-incubator/ruby-http
-    - https://github.com/tmiklas/openfaas-perl-templates
+    - "https://github.com/openfaas-incubator/golang-http-template.git"
+    - "https://github.com/openfaas-incubator/node10-express-template.git"
+    - "https://github.com/openfaas-incubator/python-flask-template.git"
+    - "https://github.com/openfaas-incubator/ruby-http"
+    - "https://github.com/tmiklas/openfaas-perl-templates"
+    - "https://github.com/alexellis/openfaas-streaming-templates"
+    
     
 EOT
