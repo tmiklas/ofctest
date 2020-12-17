@@ -20,7 +20,7 @@ Talk to me and I'll let you know :)
 
 There is personal dashboard and function invocation URL in your own namespace... and all the rest is federated with GitHub, so no other accounts needed.
 
-## Useful reading
+## Useful reading
 
 OpenFaaS has really good documentation and is changing very rapidly. To get the basics quickly see the below
 
@@ -28,7 +28,7 @@ OpenFaaS has really good documentation and is changing very rapidly. To get the 
 * [OpenFaaS Cloud documentation](https://docs.openfaas.com/openfaas-cloud/) - this is the platform we are using here
 * [OpenFaaS Architecture](https://docs.openfaas.com/architecture/stack/) - for deep dive into OpenFaaS
 
-## Sealed Secrets
+## Sealed Secrets
 
 The platform supports Kubernetes style Sealed Secrets - encrypted with cluster's public key, so you can commit them securely with the code and deploy with your function. 
 
