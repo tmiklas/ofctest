@@ -32,7 +32,7 @@ OpenFaaS has really good documentation and is changing very rapidly. To get the 
 
 The platform supports Kubernetes style Sealed Secrets - encrypted with cluster's public key, so you can commit them securely with the code and deploy with your function. 
 
-To create `secrets.yml` you can use the command below with `pub-cert.pem` included in this repository. Of course remember to include secrets configuration in `stack.yml` for your function!
+To create `secrets.yml` you can use the command below with `pub-cert.pem` included in this repository. Of course you need `kubeseal` installed (see at the bottom of [faas-cli readme](https://github.com/openfaas/faas-cli) for instructions) and remember to include secrets configuration in `stack.yml` for your function!
 
 ```
 faas-cli cloud seal --name my-function-secret --literal hmac-secret=1234 --cert=pub-cert.pem
